@@ -224,8 +224,6 @@ Before we go ahead and create the circuit, we perform a final check and verify t
 ### 9. Create the circuit
 ```sh
 cat <<EOT > circuit.circom
-pragma circom 2.0.0;
-
 template Multiplier(n) {
     signal input a;
     signal input b;
